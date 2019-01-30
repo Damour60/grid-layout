@@ -27,11 +27,23 @@ body {
   width: 100%;
 }
 
+p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+dt {
+  margin-bottom: .3rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 110%;
     line-height: 1.4;
+  }
+
+  p {
+    margin: .5rem;
   }
 
 }
@@ -40,7 +52,27 @@ body {
 
   html {
     line-height: 1.5;
-    font-size: 120%;
+  }
+
+
+  .unit-l-1 {
+    display: inline-block;
+  }
+
+  .img-flex {
+    display: inline-block;
+  }
+
+  .img{
+    width: 55%;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
   }
 
 }
